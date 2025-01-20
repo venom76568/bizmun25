@@ -14,30 +14,22 @@ const About = () => {
 
         <div className="flex flex-col justify-center gap-2">
           <p className="text-[#f4cb33] xl:text-5xl lg:text-4xl text-3xl font-extrabold font-bodyFont uppercase">
-          WHAT IS BIZ-MUN?
+            WHAT IS BIZ-MUN?
           </p>
           <h1 className="xl:text-3xl sm:text-xl text-lg font-extrabold font-bodyFont py-4 text-white">
-          Business & MUN
+            Business & MUN
           </h1>
           <p className="text-white text-lg">
-          BIZ-MUN is a transformative journey  namely
-          Collaborative Business Conference 2024,
-           meticulously crafted to elevate strategic
- discussions and foster effective cooperation
- within the business landscape. Delve into the
- heart of business expertise with our
- specialized committees, each comprising 20
- delegates and 2 co-chairs, exploring key
- facets of the business realm through the
- Legal, Finance, Fun, and Media Committees.
- These committees provide a dynamic
- platform for in-depth discussions and
- innovative 
-solutions, 
-ensuring 
-a
- comprehensive exploration of the business
- landscape.
+            BIZ-MUN is a transformative journey namely Collaborative Business
+            Conference 2024, meticulously crafted to elevate strategic
+            discussions and foster effective cooperation within the business
+            landscape. Delve into the heart of business expertise with our
+            specialized committees, each comprising 20 delegates and 2
+            co-chairs, exploring key facets of the business realm through the
+            Legal, Finance, Fun, and Media Committees. These committees provide
+            a dynamic platform for in-depth discussions and innovative
+            solutions, ensuring a comprehensive exploration of the business
+            landscape.
           </p>
           <div className="flex flex-col lg:flex-row mt-10 md:mt-0 gap-4 lg:gap-10">
             <Link
@@ -48,7 +40,6 @@ a
                 Brochure
               </button>
             </Link>
-            
           </div>
         </div>
       </div>

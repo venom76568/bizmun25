@@ -37,6 +37,11 @@ const Timeline = () => {
           description="Registration for BIZ-MUN starts."
         />
         <TimelineItem
+          date="6 February 2025"
+          title="Registration Ends"
+          description="Registration for BIZ-MUN Ends."
+        />
+        <TimelineItem
           date="08 February 2025"
           title="Opening Ceremony"
           description="The day's schedule includes an opening ceremony, followed by three committee sessions interspersed with breaks for lunch and high tea."
