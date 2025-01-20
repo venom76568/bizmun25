@@ -2,8 +2,8 @@ import './globals.css'
 import Providers from './providers'
 
 export const metadata = {
-  title: 'IPL Auction',
-  description: 'The IPL Auction, where every bids count and every player has a chance to shine is an event of Entrepreneurship Cell, VNIT Nagpur which provides the platform for participants to witness the magic of cricket as the best players in the world battle it out in the auction block.',
+  title: 'BIZ-MUN',
+  description: ' BIZ-MUN is a transformative journey  namely Collaborative Business Conference 2024, meticulously crafted to elevate strategicdiscussions and foster effective cooperationwithin the business landscape',
 }
 
 import { Poppins } from "@next/font/google";

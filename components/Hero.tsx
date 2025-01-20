@@ -13,18 +13,37 @@ function Hero() {
           id="home"
         >
           <div className="lg:pb-10 self-center lg:text-3xl md:text-2xl sm:text-xl text-[1.2rem] py-2 text-[#ffffff] font-extrabold font-bodyFont uppercase tracking-wider">
-            Join the bidding frenzy and score your ultimate dream team
+          Unlock the Future of Business Collaboration
           </div>
           <div className="text-center w-full h-fit">
-            <Image
-              src={logo}
-              alt="IPL"
-              className="xl:scale-[3.5] lg:scale-[3] md:scale-[2.5] w-96 inline-flex justify-center"
-            />
+          <h1
+            className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 text-center flex justify-center space-x-1"
+            style={{ fontFamily: 'Joti One, sans-serif' }} // Apply the custom font to the entire CONSONITE text
+          >
+            {/* CONSO with stronger red glow */}
+            {['B', 'I', 'Z'].map((letter, index) => (
+              <span
+                key={index}
+                className="relative cursor-pointer text-[#f4cb33] transition-transform transform group hover:scale-105 hover:text-shadow-red"
+              >
+                {letter}
+              </span>
+            ))}
+            {/* NITE in white with lighter glow */}
+            {['M','U','N'].map((letter, index) => (
+              <span
+                key={index}
+                className="relative cursor-pointer text-white transition-transform transform group hover:scale-110 hover:text-shadow-white"
+              >
+                {letter}
+              </span>
+            ))}
+          </h1>
           </div>
           <div className="flex flex-col justify-center row-span-2 gap-10">
             <p className="text-xl sm:text-2xl py-4 -my-6 font-extrabold font-bodyFont text-white">
-              Hurry up!! Create your team and Register
+            Don’t miss out—Register now to be part of BIZ-MUN
+            2024 and shape the future of business collaboration!
             </p>
             <a href="#register" className="font-bold font-bodyFont">
               <button
