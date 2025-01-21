@@ -45,7 +45,7 @@ function Hero() {
               the future of business collaboration!
             </p>
             <p className="text-xl sm:text-2xl py-4 -my-6 font-extrabold font-bodyFont text-white">
-              The Event will be held on 8th and 9th of Feburary.
+              The Event will be held on 8th and 9th of February.
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdzitidy_a3V0QZujdsSNsPfHDtNCkUFZWfklwosddX9rl2dQ/viewform?usp=sharing"
